@@ -22,9 +22,11 @@ These are the main components of this repository:
 
 3. [Test results](#test-results)
 
-4. [How to setup your player](#how-to-setup-your-player)
+## Conceptual docs
 
-## Setup
+For general information on setting up the players in this sample see [How to use the Video.js player with Azure Media Services](https://docs.microsoft.com/azure/media-services/latest/how-to-video-js-player) and [How to use the Shaka player with Azure Media Services](https://docs.microsoft.com/azure/media-services/latest/how-to-shaka-player).
+
+## Set up
 
 This project uses PowerShell [setup](/setup) scripts to generate content (VOD and Live) in Azure Media Services, and provides tools to test the 3rd party players in different combinations of features, streaming formats, and content protection.
 
@@ -70,27 +72,12 @@ To see the test results, please check:
 - [Video.js](/docs/video.js#test-results)
 - [Shaka Player](/docs/shaka#test-results)
 
-## How to set up your player
-
-The documentation contains instructions on how to implement your own player, covering the following items:
-
-- Implementing the player
-- Set up captions
-- Set up token authentication
-- Set up AES-128 encryption
-- Set up DRM protection
-
-To see the documentation, please check:
-
-- [Video.js](/docs/video.js)
-- [Shaka Player](/docs/shaka)
-
 ## Root contents
 
 | File/folder         | Description                                |
 |---------------------|--------------------------------------------|
 | `src`               | Folder with 3rd party player samples                |
-| `docs`              | Folder with 3rd party player documentation and test results|
+| `docs`              | Folder with test results|
 | `setup`             | Folder with AMS setup scripts             |
 | `.gitignore`        | Define what to ignore at commit time      |
 | `CHANGELOG.md`      | List of changes to the sample             |
